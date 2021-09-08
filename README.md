@@ -1,4 +1,4 @@
-# MIPS-32-implementation
+# MIPS-32 bit-implementation
 
 Simulator & Tools: Icarus Verilog + GTKWave </br>
 Installation Guide: http://inf-server.inf.uth.gr/~konstadel/resources/Icarus_Verilog_GTKWave_guide.pdf
