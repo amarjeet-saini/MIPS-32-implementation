@@ -1,11 +1,14 @@
 # MIPS-32-implementation
 
-Arithmetic and Logical Unit (ALU) </br>
+Simulator & Tools: Icarus Verilog + GTKWave </br>
+Installation Guide: http://inf-server.inf.uth.gr/~konstadel/resources/Icarus_Verilog_GTKWave_guide.pdf
 
-Status Flag - Zero FLag (ZF) </br>
+## Arithmetic and Logical Unit (ALU) </br>
+
+### Status Flag - Zero FLag (ZF) </br>
 ZF = 1 if result = 32'b0 else ZF = 0
 
-ALU operation support
+### ALU operation support ###
 
 AluOp(3:0) | Mnemonic  |  Result =   |  Description   |
 -----------|-----------|-------------|----------------|
@@ -18,13 +21,10 @@ AluOp(3:0) | Mnemonic  |  Result =   |  Description   |
 1010       |   slt     | (A - B)[31] |  Set less than |
 Others     |   n.a.    | Don’t care  |                |
 
-verilog file   :  alu.v </br>
-testbench file : alu_tb.v
+*verilog file   :  alu.v* </br>
+*testbench file : alu_tb.v*
 
-Done:
-ALU 32 bit
-
-To do:
-CU 
-Memory
-Pipelinig
+- [x] ALU 32 bit
+- [ ] CU 
+- [ ] Memory
+- [ ] Pipelinig
