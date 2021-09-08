@@ -2,6 +2,9 @@
 
 Arithmetic and Logical Unit (ALU) </br>
 
+Status Flag - Zero FLag (ZF) </br>
+ZF = 1 if result = 32'b0 else ZF = 0
+
 ALU operation support
 
 AluOp(3:0) | Mnemonic  |  Result =   |  Description   |
@@ -15,7 +18,7 @@ AluOp(3:0) | Mnemonic  |  Result =   |  Description   |
 1010       |   slt     | (A - B)[31] |  Set less than |
 Others     |   n.a.    | Don’t care  |                |
 
-verilog file   :  alu.v
+verilog file   :  alu.v </br>
 testbench file : alu_tb.v
 
 Done:
