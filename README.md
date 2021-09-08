@@ -15,8 +15,8 @@ AluOp(3:0) | Mnemonic  |  Result =   |  Description   |
 1010       |   slt     | (A - B)[31] |  Set less than |
 Others     |   n.a.    | Don’t care  |                |
 
-verilog file   : 
-testbench file : 
+verilog file   :  alu.v
+testbench file : alu_tb.v
 
 Done:
 ALU 32 bit
